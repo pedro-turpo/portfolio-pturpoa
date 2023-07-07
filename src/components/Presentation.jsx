@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Presentation = () => {
     return (
         <section className="grid pt-[70px] max-w-[1100px] mx-auto">
@@ -5,15 +7,15 @@ const Presentation = () => {
             {/* Presentacion and img */}
             <article className="flex flex-col items-center sm:flex-row sm:h-[520px]">
                 <div className="py-2 px-10 sm:w-[50%] sm:pr-0 sm:text-justify">
-                    <h2 className="text-[32px] font-bold sm:ml-[100px]">Leunam is a <span className="text-primary">web designer</span> and <span className="text-primary">frontEnd developer</span></h2>
+                    <h2 className="text-[32px] font-bold sm:ml-[100px]">Hi, I'm Manuel. I'm <span className="text-primary">web designer</span> and <span className="text-primary">frontEnd developer</span></h2>
 
-                    <p className="mt-4 font-semibold text-gray sm:ml-[100px]">He crafts responsive websites where technologies meet creativity</p>
+                    <p className="mt-4 font-semibold text-gray sm:ml-[100px]">I'm a frontend developer creating responsive websites where technologies meet creativity</p>
 
-                    <button className="sm:ml-[100px] mt-8 border border-primary font-bold text-xl py-2 px-4">Contact me!!</button>
+                    <button className="sm:ml-[100px] mt-8 border border-primary font-bold text-xl py-2 px-4"><Link to="/contacts" >Contact me!!</Link></button>
                 </div>
                 <section className="flex flex-col justify-center items-center gap-4 sm:w-[50%] p-5">
-                    <div className=" sm:w-full">
-                        <img className="mx-auto" src="/images/image.png" alt="" />
+                    <div className="sm:w-full px-4 min-[400px]:px-20">
+                        <img className="mx-auto max-w" src="/images/myPhoto.png" alt="" />
                     </div>
                     <div className="p-2 flex gap-2 border items-center">
                         <div className="h-[10px] aspect-square bg-primary"></div>

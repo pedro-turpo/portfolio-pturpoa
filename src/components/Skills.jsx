@@ -2,7 +2,7 @@ import SkillsList from "./skills/SkillsList"
 
 const Skills = () => {
     return (
-        <section className="mt-[40px] max-w-[1150px] mx-auto px-8 sm:px-[100px]">
+        <section id="skills" className="mt-[40px] max-w-[1150px] mx-auto px-8 sm:px-[100px]">
 
             {/* The head of this section */}
             <article className="grid grid-cols-[2fr_1fr]">

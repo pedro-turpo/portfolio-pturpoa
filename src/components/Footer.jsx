@@ -31,9 +31,9 @@ const Footer = () => {
                         <div className="flex flex-col items-center gap-2 sm:items-start">
                             <h3 className="text-xl font-bold">Media</h3>
                             <div className="flex gap-4">
-                                <a href="#"><i className='bx bxl-github'></i></a>
-                                <a href="#"><i className='bx bxl-facebook'></i></a>
-                                <a href="#"><i className="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/pedro-turpo/" target="_black"><i className="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/pedro-turpo" target="_black"><i className='bx bxl-github'></i></a>
+                                <a href="https://www.facebook.com/manuel.ancco.31/" target="_black"><i className='bx bxl-facebook'></i></a>
                             </div>
                         </div>
                     </article>

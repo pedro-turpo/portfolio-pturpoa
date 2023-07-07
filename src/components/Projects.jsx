@@ -2,8 +2,9 @@ import { Link } from "react-router-dom"
 import ProjectsList from "./Projects/ProjectsList"
 
 const Projects = () => {
+    
     return (
-        <section id="projects" className="mt-[80px] max-w-[1150px] mx-auto px-8 sm:px-[100px]">
+        <section id="projects" className="mt-[80px] max-w-[1150px] mx-auto px-8 sm:px-[100px] scroll-m-custom"> 
 
             {/* The head of this section */}
             <article className="grid grid-cols-[2fr_1fr]">

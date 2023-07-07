@@ -9,8 +9,8 @@ import PageContacts from "./pages/PageContacts"
 function App() {
 
   return (
-    <main className="bg-background min-h-screen font-[Inconsolata] text-white">
-
+    <main className="bg-background min-h-screen font-[Inconsolata] text-white">      
+      
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

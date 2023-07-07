@@ -1,6 +1,6 @@
 const Contacts = () => {
     return (
-        <section className="mt-[40px] max-w-[1150px] mx-auto px-8 sm:px-[100px]">
+        <section id="contacts" className="mt-[40px] max-w-[1150px] mx-auto px-8 sm:px-[100px]">
 
             {/* The head of this section */}
             <article className="grid grid-cols-[2fr_1fr]">
@@ -17,10 +17,10 @@ const Contacts = () => {
                 </div>
 
                 <section className="flex justify-end">
-                    <div className="flex flex-col border p-2 px-4 gap-2 w-[200px] max-w-[300px]">
+                    <div className="flex flex-col border p-2 px-4 gap-2 w-[250px] max-w-[300px]">
                         <h3 className="font-bold text-lg text-center">Message me here</h3>
-                        <span><i className='bx bxl-discord'></i> !Elias#3519</span>
-                        <span><i className='bx bxs-envelope'></i> elias@elias.me</span>
+                        <span><i className='bx bxl-discord'></i> PedroT#8380</span>
+                        <span><i className='bx bxs-envelope'></i> pedroancco.321@gmail.com</span>
                     </div>
                 </section>
             </article>

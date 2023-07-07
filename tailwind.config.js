@@ -10,8 +10,11 @@ export default {
         primary: "#C778DD",
         gray: "#ABB2BF",
         background: "#282C33",
-        white:"#FFFFFF",
-      }
+        white: "#FFFFFF",
+      },
+      scrollMargin: {
+        'custom': '90px',
+      },
     },
   },
   plugins: [],
