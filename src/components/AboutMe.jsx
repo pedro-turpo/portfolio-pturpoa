@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom"
+
 const AboutMe = () => {
     return (
-        <section className="mt-[40px] max-w-[1150px] mx-auto px-8 sm:px-[100px]">
+        <section className="pt-[90px] max-w-[1150px] mx-auto px-8 sm:px-[100px]">
 
             {/* The head of this section */}
             <article className="grid grid-cols-[2fr_1fr]">
@@ -18,7 +20,7 @@ const AboutMe = () => {
                     <p>I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.</p>
                     <p>Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
                     
-                    <a href="#" className="flex gap-2 justify-center items-center border border-primary w-[120px] mt-8 font-semibold">Read more <i className='bx bx-link-external text-lg'></i></a>
+                    <Link to="/aboutme" className="flex gap-2 justify-center items-center border border-primary w-[120px] mt-8 font-semibold">Read more <i className='bx bx-link-external text-lg'></i></Link>
                     
                 </section>
 

@@ -1,6 +1,6 @@
 const Presentation = () => {
     return (
-        <section className="grid mt-2 max-w-[1100px] mx-auto">
+        <section className="grid pt-[70px] max-w-[1100px] mx-auto">
 
             {/* Presentacion and img */}
             <article className="flex flex-col items-center sm:flex-row sm:h-[520px]">

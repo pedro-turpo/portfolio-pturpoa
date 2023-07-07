@@ -8,37 +8,38 @@ const Footer = () => {
             </article>
 
             <article>
-                <section className="grid gap-2">
+                <section className="grid gap-4 mt-2 sm:grid-cols-2">
                     {/* Little footer and email */}
-                    <article>
-                        <div>
+                    <article className="flex flex-col gap-2">
+                        <div className="flex flex-wrap justify-between">
                             <div>
-                                <a href="#">Leunam</a>
+                                <a className="font-bold" href="#"><i className="fa-solid fa-bug fa-shake text-primary
+                 "></i> Leunam</a>
                             </div>
                             <div>
-                                <span>elias@elias-dev.ml</span>
+                                <span className="text-gray">pedroancco.321@gmail.com</span>
                             </div>
                         </div>
 
-                        <div>
+                        <div className="text-justify">
                             <p>Web designer and front-end developer</p>
                         </div>
                     </article>
 
                     {/* My media */}
-                    <article>
-                        <div>
-                            <h3>Media</h3>
-                            <div>
-                                <i className='bx bxl-github'></i>
-                                <i className='bx bxl-facebook'></i>
-                                <i className='bx bx-gift'></i>
+                    <article className="sm:flex sm:justify-end">
+                        <div className="flex flex-col items-center gap-2 sm:items-start">
+                            <h3 className="text-xl font-bold">Media</h3>
+                            <div className="flex gap-4">
+                                <a href="#"><i className='bx bxl-github'></i></a>
+                                <a href="#"><i className='bx bxl-facebook'></i></a>
+                                <a href="#"><i className="fa-brands fa-linkedin"></i></a>
                             </div>
                         </div>
                     </article>
                 </section>
 
-                <section className="pb-10">
+                <section className="pb-8 mt-6 text-gray text-center">
                     <p>© Copyright 2023. Made by Leunam</p>
                 </section>
             </article>

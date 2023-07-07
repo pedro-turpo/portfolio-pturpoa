@@ -1,22 +1,25 @@
-import AboutMe from "./components/AboutMe"
-import Contacts from "./components/Contacts"
-import Footer from "./components/Footer"
+import { Route, Routes } from "react-router-dom"
+import Home from "./pages/Home"
+import MoreProjects from "./pages/MoreProjects"
 import Header from "./components/Header"
-import Presentation from "./components/Presentation"
-import Projects from "./components/Projects"
-import Skills from "./components/Skills"
+import Footer from "./components/Footer"
+import PageAboutMe from "./pages/PageAboutMe"
+import PageContacts from "./pages/PageContacts"
 
 function App() {
 
   return (
     <main className="bg-background min-h-screen font-[Inconsolata] text-white">
+
       <Header />
-      <Presentation />
-      <Projects />
-      <Skills />
-      <AboutMe />
-      <Contacts />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<MoreProjects />} />
+        <Route path="/aboutme" element={<PageAboutMe />} />
+        <Route path="/contacts" element={<PageContacts />} />
+      </Routes>
       <Footer />
+
     </main>
   )
 }
