@@ -4,7 +4,7 @@ const SmallProjectsList = ({ smallProjectsList}) => {
 
             {/* List of my projects */}
             {
-                smallProjectsList.map((project) => (
+                smallProjectsList?.map((project) => (
                     <article className="w-full max-w-[300px] sm:min-h-auto mt-6 border border-gray flex flex-col" key={project.id}>
                         <section>
                             <h3 className="p-2 border-y border-gray text-gray text-justify">{project.languagesUsed}</h3>

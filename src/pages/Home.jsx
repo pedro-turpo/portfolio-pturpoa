@@ -6,12 +6,12 @@ import Skills from "../components/Skills"
 
 const Home = () => {
     return (
-        <section className="max-w-[1200px] mx-auto relative">
+        <section className="max-w-[1500px] mx-auto relative z-20">
 
             {/* Seccion contacts in the principal page */}
-            <article className="flex flex-col justify-center items-center w-[20px] absolute -left-20 ml-9">
+            <article className="hidden flex-col justify-center items-center w-[20px] fixed min-[1200px]:ml-[35px] min-[1400px]:ml-[85px] xl:flex">
                 {/* Barr */}
-                <div className="h-[250px] w-[1px] border border-gray">
+                <div className="h-[260px] w-[1px] border border-gray">
                 </div>
 
                 {/* Icons and Links */}

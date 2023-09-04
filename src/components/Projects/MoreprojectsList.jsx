@@ -5,7 +5,7 @@ const MoreprojectsList = ({ projectsList }) => {
 
             {/* List of my projects */}
             {
-                projectsList.map((project) => (
+                projectsList?.map((project) => (
                     <article className="w-full max-w-[300px] sm:min-h-[350px] mt-6 border border-gray flex flex-col justify-between" key={project.id}>
                         <section>
                             <div>

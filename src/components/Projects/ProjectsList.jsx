@@ -49,18 +49,18 @@ const ProjectsList = () => {
                 <article className="w-full max-w-[300px] min-h-[350px] mt-6 border border-gray flex flex-col justify-between">
                     <section>
                         <div>
-                            <img src="/projects-images/test1.png" alt="" />
+                            <img src="/projects-images/Ecommerce.jpg" alt="" />
                         </div>
 
-                        <h3 className="p-2 border-y border-gray text-gray text-justify">Html CSS Python Flask</h3>
+                        <h3 className="p-2 border-y border-gray text-gray text-justify">Html CSS JavaScript React Tailwind</h3>
                     </section>
 
                     <section className="p-2">
-                        <h2 className="text-xl">ChertNodes</h2>
-                        <p className="text-gray pt-2 pb-4 text-justify">Minecraft servers hosting</p>
+                        <h2 className="text-xl">Ecommerce</h2>
+                        <p className="text-gray pt-2 pb-4 text-justify">In this eCommerce app, you can browse a wide range of items available on the API. Get information about prices, features, stock availability and much more.</p>
                         <div className="flex justify-center gap-10">
-                            <a className="py-1 px-4 border border-primary" href="#">Demo <i className="fa-solid fa-arrow-up-right-from-square fa-beat text-[12px]"></i></a>
-                            <a className="py-1 px-4 border" href="#">Code <i className="fa-brands fa-github fa-beat text-[12px]"></i></a>
+                            <a className="py-1 px-4 border border-primary" href="https://ecommerce-app-pturpoa.netlify.app/" target="_black">Demo <i className="fa-solid fa-arrow-up-right-from-square fa-beat text-[12px]"></i></a>
+                            <a className="py-1 px-4 border" href="https://github.com/pedro-turpo/Ecommerce-app-pturpoa" target="_black">Code <i className="fa-brands fa-github fa-beat text-[12px]"></i></a>
                         </div>
                     </section>
                 </article>

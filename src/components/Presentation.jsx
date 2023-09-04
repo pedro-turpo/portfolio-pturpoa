@@ -1,21 +1,34 @@
 import { Link } from "react-router-dom"
+import { useTypewriter, Cursor } from "react-simple-typewriter"
 
 const Presentation = () => {
+    const [text] = useTypewriter({
+        words: ['Un desarrollador front-end', 'Un desarrollador back-end', 'Un desarrollador Full Stack', 'Un ingeniero en sistemas informáticos', 'Un diseñador UI/UX'],
+        loop: 3,
+        onLoopDone: () => console.log(`loop completed after 3 runs.`)
+    })
+
+
     return (
-        <section className="grid pt-[70px] max-w-[1100px] mx-auto">
+        <section className="grid pt-[120px] max-w-[1400px] mx-auto">
 
             {/* Presentacion and img */}
             <article className="flex flex-col items-center sm:flex-row sm:h-[520px]">
                 <div className="py-2 px-10 sm:w-[50%] sm:pr-0 sm:text-justify">
-                    <h2 className="text-[32px] font-bold sm:ml-[100px]">Hi, I'm Manuel. I'm <span className="text-primary">web designer</span> and <span className="text-primary">frontEnd developer</span></h2>
+                    <section className="text-[25px] font-bold sm:ml-[100px]">
+                        <h2 className="text-7xl">Pedro Turpo</h2>
+                        <h2 className="mt-10">¿Quién soy?</h2>
+                        <div><span className="text-primary">{text} <Cursor cursorColor='blue' /></span></div>
 
-                    <p className="mt-4 font-semibold text-gray sm:ml-[100px]">I'm a frontend developer creating responsive websites where technologies meet creativity</p>
+                        <p className="mt-4 font-semibold text-gray">I'm a frontend developer creating responsive websites where technologies meet creativity</p>
 
-                    <button className="sm:ml-[100px] mt-8 border border-primary font-bold text-xl py-2 px-4"><Link to="/contacts" >Contact me!!</Link></button>
+                        <button className="mt-8 border border-primary text-xl py-2 px-4"><Link to="/contacts" >Contact me!!</Link></button>
+                    </section>
+
                 </div>
-                <section className="flex flex-col justify-center items-center gap-4 sm:w-[50%] p-5">
-                    <div className="sm:w-full px-4 min-[400px]:px-20">
-                        <img className="mx-auto max-w" src="/images/myPhoto.png" alt="" />
+                <section className="flex flex-col justify-center items-center gap-4 sm:w-[50%] p-5 h-full">
+                    <div className="sm:w-full h-[85%]">
+                        <img className="mx-auto max-h-[450px] object-cover min-[750px]:-mt-[50px]" src="/images/myPhoto.png" alt="" />
                     </div>
                     <div className="p-2 flex gap-2 border items-center">
                         <div className="h-[10px] aspect-square bg-primary"></div>
