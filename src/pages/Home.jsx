@@ -11,8 +11,7 @@ const Home = () => {
             {/* Seccion contacts in the principal page */}
             <article className="hidden flex-col justify-center items-center w-[20px] fixed min-[1200px]:ml-[35px] min-[1400px]:ml-[85px] xl:flex">
                 {/* Barr */}
-                <div className="h-[260px] w-[1px] border border-gray">
-                </div>
+                <div className="h-[260px] w-[1px] border border-gray"></div>
 
                 {/* Icons and Links */}
                 <section className="grid text-white mt-3 gap-4">

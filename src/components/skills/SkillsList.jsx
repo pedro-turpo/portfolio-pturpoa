@@ -1,8 +1,12 @@
 const SkillsList = () => {
     return (
-        <article className="w-[100%] mt-2 grid grid-rows-[1fr_4fr] sm:grid-cols-[1fr_4fr] sm:grid-rows-[1fr]">
+        <article className="w-[100%] mt-2 grid grid-rows-[auto_4fr] sm:grid-cols-[1fr_4fr] sm:grid-rows-[1fr]">
             {/*  empty place */}
-            <section></section>
+            <section className="w-full h-full grid place-items-center">
+                <div className="p-8 max-w-[200px]">
+                    <img src="./skills-images/react.png" alt="image of react" />
+                </div>
+            </section>
 
             {/* My skills */}
             <section className="grid gap-4 sm:grid-cols-3 p-6">
@@ -10,7 +14,7 @@ const SkillsList = () => {
                 <article>
                     <section className="border">
                         <div className="border-b p-2">
-                            <h3 className="font-bold">Languages</h3>
+                            <h3 className="font-bold">Lenguajes de programación</h3>
                         </div>
                         <div className="p-2 flex gap-3 flex-wrap text-gray">
                             <span>TypeScript</span>
@@ -26,7 +30,7 @@ const SkillsList = () => {
                     {/* Data bases */}
                     <section className="border">
                         <div className="border-b p-2">
-                            <h3 className="font-bold">Databases</h3>
+                            <h3 className="font-bold">Gestores de bases de datos</h3>
                         </div>
                         <div className="p-2 flex gap-3 flex-wrap text-gray">
                             <span>SQLite</span>
@@ -37,7 +41,7 @@ const SkillsList = () => {
                     {/* Others */}
                     <section className="border">
                         <div className="border-b p-2">
-                            <h3 className="font-bold">Other</h3>
+                            <h3 className="font-bold">Otros</h3>
                         </div>
                         <div className="p-2 flex gap-3 flex-wrap text-gray">
                             <span>HTML</span>
@@ -53,7 +57,7 @@ const SkillsList = () => {
                     {/* Data bases */}
                     <section className="border">
                         <div className="border-b p-2">
-                            <h3 className="font-bold">Tools</h3>
+                            <h3 className="font-bold">Herramientas</h3>
                         </div>
                         <div className="p-2 flex gap-3 flex-wrap text-gray">
                             <span>VSCode</span>

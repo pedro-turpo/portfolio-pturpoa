@@ -1,0 +1,1 @@
+export const numberRandom = Math.floor(Math.random() * 23);

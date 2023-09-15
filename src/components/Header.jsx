@@ -12,8 +12,7 @@ const Header = ({ openModal, setOpenModal }) => {
             {/* Logo and name */}
 
             <section className="text-xl min-[420px]:text-2xl mb-2">
-                <Link to="/"> <i className="fa-solid fa-bug fa-shake text-primary
-                 "></i> Leunam</Link>
+                <Link to="/" className="font-[Orbitron] text-xl font-bold"> <i className="fa-solid fa-bug fa-shake text-primary"></i> Leunam</Link>
             </section>
 
             {/* navbar */}

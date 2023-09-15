@@ -1,0 +1,30 @@
+/* Button */
+.boton {
+    padding: 10px 20px;
+    transition: .4s ease-in, color 0.5s ease;
+    position: relative;
+    z-index: 1;
+    border: 1px #C778DD solid;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.boton a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: rgba(205, 120, 221, 0.4);
+    top: 0;
+    left: 0;
+    transition: .4s ease-in;
+    z-index: -1;
+}
+
+.boton a:hover {
+    color: white;
+}
+
+.boton a:hover::before {
+    width: 100%;
+}

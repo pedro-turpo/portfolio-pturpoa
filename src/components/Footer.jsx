@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <section className="mt-[40px] max-w-[1150px] mx-auto px-8 sm:px-[100px]">
+        <section className="mt-[40px] max-w-[1400px] mx-auto px-8 sm:px-[100px]">
 
             {/* The head of this section */}
             <article>
@@ -22,16 +22,16 @@ const Footer = () => {
                         </div>
 
                         <div className="text-justify">
-                            <p>Web designer and front-end developer</p>
+                            <p>Desarrollador web Fullstack</p>
                         </div>
                     </article>
 
                     {/* My media */}
                     <article className="sm:flex sm:justify-end">
                         <div className="flex flex-col items-center gap-2 sm:items-start">
-                            <h3 className="text-xl font-bold">Media</h3>
+                            <h3 className="text-xl font-bold">Medios</h3>
                             <div className="flex gap-4">
-                            <a href="https://www.linkedin.com/in/pedro-turpo/" target="_black"><i className="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/pedro-turpo/" target="_black"><i className="fa-brands fa-linkedin"></i></a>
                                 <a href="https://github.com/pedro-turpo" target="_black"><i className='bx bxl-github'></i></a>
                                 <a href="https://www.facebook.com/manuel.ancco.31/" target="_black"><i className='bx bxl-facebook'></i></a>
                             </div>
@@ -39,8 +39,8 @@ const Footer = () => {
                     </article>
                 </section>
 
-                <section className="pb-8 mt-6 text-gray text-center">
-                    <p>© Copyright 2023. Made by Leunam</p>
+                <section className="pb-2 mt-6 text-gray text-center">
+                    <p>&copy; 2023 Leunam. Todos los derechos reservados.</p>
                 </section>
             </article>
 

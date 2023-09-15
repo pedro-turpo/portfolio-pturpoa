@@ -1,14 +1,10 @@
-import { Link } from "react-router-dom"
-import { projectsList } from "../../utils/projectsList"
-
-const ProjectsList = () => {
-    const projectsFilter = projectsList.filter((project) => project.value === 'priority');
+const FrontEndProjects = ({ frontEndProjects }) => {
     return (
         <section>
             <div className="flex gap-4 flex-wrap justify-center">
-                {/* Principal Projects */}
+                {/* Principal Projects of FrontEnd*/}
                 {
-                    projectsFilter.map((project) => (
+                    frontEndProjects.map((project) => (
                         <article key={project.id} className="w-[300px] xl:w-[350px] sm:min-h-[335px] mt-6 border border-gray flex flex-col">
                             <div className="min-h-[180px]">
                                 <img className="object-cover w-full h-full" src={project.img} alt="" />
@@ -31,17 +27,7 @@ const ProjectsList = () => {
                     ))
                 }
             </div>
-
-            {/* Button section */}
-            <article className=" grid place-items-center">
-                <div className="boton my-4">
-                    <Link to="/projects" className="inline-flex items-center gap-3 text-xl font-extrabold">
-                        <span>Ver Proyectos</span>
-                        <i className="fa-solid fa-arrow-right fa-shake"></i>
-                    </Link>
-                </div>
-            </article>
         </section>
     )
 }
-export default ProjectsList
+export default FrontEndProjects
